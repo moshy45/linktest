@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "mypack": "http://92.253.45.34.bc.googleusercontent.com/poc-1.0.0.tgz"
+  }
+}
