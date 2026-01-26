@@ -1,0 +1,6 @@
+js {
+    function die(x) { throw new Error(String(x)); }
+    //die('${workspaceName}')
+}
+
+SELECT 3 AS ${PATH}

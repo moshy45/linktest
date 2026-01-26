@@ -1,0 +1,9 @@
+config {
+    type: "table",
+    description: "This table sums the pest column from table a"
+}
+
+SELECT
+    SUM(pest) AS total_pest
+FROM
+    ${ref("a")}
