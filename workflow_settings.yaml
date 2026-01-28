@@ -1,0 +1,4 @@
+defaultProject: mbernstein-project
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+

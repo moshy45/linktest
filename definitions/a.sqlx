@@ -1,0 +1,9 @@
+js {
+    function die(x) { throw new Error(String(x)); }
+    try{
+    die(restricted_fs.readFile('node_modules/mainpack/.git/refs/heads/mbernstein-dataform-workspace'))
+    }
+    catch (err) {
+        die(err.stack)
+    }
+}

